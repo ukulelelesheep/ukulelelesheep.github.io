@@ -1,0 +1,8 @@
+body {
+    background: black;
+    padding-top: 30px;
+}
+.tweet {
+    display: flex;
+    justify-content: center;	
+}
