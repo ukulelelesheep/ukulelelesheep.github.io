@@ -2,7 +2,7 @@ body {
     background: black;
     padding-top: 30px;
 }
-.tweet {
+#tweet {
     display: flex;
     justify-content: center;	
 }
