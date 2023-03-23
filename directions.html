@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <title>Directions</title>
+   <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1>Let's go places!</h1>
+    <form>
+        <label>
+            Starting Point: 
+            <input name="start" id="start" value="Your Location" />
+        </label>
+        <label>
+            End Point: 
+            <input name="end" id="end" value="New City Hall"/>
+        </label>
+
+        <button type="submit">Get Directions</button>
+    </form>
+
+    <p id="result"></p>
+    <p id="msg"></p>
+    
+    <script src="directions.js"></script>
+</body>

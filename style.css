@@ -1,7 +1,12 @@
 body {
-    background: black;
+    background: rgb(203, 203, 203);
     padding-top: 30px;
 }
+
+h1 {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
 #tweet {
     display: flex;
     justify-content: center;	

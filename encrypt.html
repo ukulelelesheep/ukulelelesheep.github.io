@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <title>Encryption</title>
+   <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1>Let's start encrypting those messages!</h1>
+
+    <form>
+        <label>
+            Encrypt:
+            <input name="encryptType" id="encrypt" value="encrypt" type="radio" />
+        </label>
+        <label>
+            Decrypt:
+            <input name="encryptType" id="decrypt" vaue="decrypt" type="radio" />
+        </label>
+        <label>
+            Message:
+            <input name="message" id="message" />
+        </label>
+
+        <label>
+            Key:
+            <input name="key" id="key"/>
+        </label>
+
+        <button type="submit">Enter</button>
+    </form>
+
+    <p id="result"></p>
+
+    <script src="encrypt.js"></script>
+</body>
