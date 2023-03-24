@@ -1,7 +1,15 @@
 const form = document.querySelector('form');
 form.addEventListener('submit', event => {
-  let resultEl = document.getElementById("result");
-  resultEl.innerHTML = "You did it!";
   event.preventDefault();
+
+  const messageEl = document.getElementById("message");
+  const addressEl = document.getElementById("address");
+
+
+  const resultEl = document.getElementById("result");
+  resultEl.innerHTML = "Message \'" 
+      + messageEl.value + "\' was sent to address " 
+      + addressEl.value;
+
 });
 
