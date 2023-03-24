@@ -2,11 +2,12 @@ var form = document.querySelector('form');
 
 var abcToOneTwoThree = function(key) {
     var keyString = "";
-    for (const char of key) {
+    
+    for (const char of key.toLowerCase()) {
         var num = char.charCodeAt(0) - 96;
         keyString += num;
     }
-    return Number(keyString);
+    return Number(keyString) + 40;
 }
 
 var shift = function(string, amount) {
